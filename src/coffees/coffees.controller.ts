@@ -4,11 +4,8 @@ import {
   Get,
   Post,
   Param,
-  HttpCode,
-  HttpStatus,
   Patch,
   Delete,
-  Query,
 } from '@nestjs/common';
 import { CoffeesService } from './coffees.service';
 import { Coffee } from './entities/coffee.entity';
